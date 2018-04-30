@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="910.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.o7planning.javafx.MyController">
+   <children>
+      <Canvas fx:id="canvas" height="910.0" width="700.0" />
+      <ChoiceBox fx:id="chBox2" layoutX="823.0" layoutY="162.0" prefHeight="31.0" prefWidth="59.0" />
+      <ChoiceBox fx:id="chBox1" layoutX="722.0" layoutY="162.0" prefHeight="31.0" prefWidth="59.0" />
+      <Button layoutX="783.0" layoutY="218.0" mnemonicParsing="false" onAction="#addPerson" text="Add" />
+      <Text layoutX="751.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add person">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="727.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="current" />
+      <Text layoutX="828.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="desired" />
+      <Text layoutX="752.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="floor" />
+      <Text layoutX="848.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="floor" />
+      <CheckBox fx:id="autoAdd" layoutX="761.0" layoutY="324.0" mnemonicParsing="false" text="Auto added" />
+   </children>
+</AnchorPane>
